@@ -1,0 +1,12 @@
+salaries=[45000,50000,78000,98000,47000,120000,65000]
+highest_salary=max(salaries)
+lowest_salary=min(salaries)
+average_salary=sum(salaries)/len(salaries)
+count_above_50k = 0
+for salary in salaries:
+    if salary > 50000:
+        count_above_50k += 1
+print("highest salary:",highest_salary)
+print("lowest salary:",lowest_salary)
+print("average salary:",average_salary)
+print("number of people getting salary:",count_above_50k)
