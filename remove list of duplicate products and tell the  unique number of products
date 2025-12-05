@@ -1,0 +1,5 @@
+products_list=["Apple","bannana","bannana","mango","mango","mango","guava","guava"]
+unique_products=list(set(products_list))
+unique_products.sort()
+print(unique_products)
+print("number of unique products:",len(unique_products))
